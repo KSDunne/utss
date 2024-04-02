@@ -76,10 +76,6 @@ h3 {
     aspect-ratio: auto;
 }
 
-.footer-logo {
-    aspect-ratio: auto;
-}
-
 #logo-div {
     display: flex;
     justify-content: center;
@@ -441,46 +437,38 @@ hr {
 }
 
 /* footer */
-.container-footer-divs {
-    color: #000000;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    flex-wrap: wrap;
-    background-color: #CC864A;
-    border-top: 1px solid #000000;
+.footer-section {
+  background-color: #d1d1d9;
 }
 
-.footer-divs p {
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-    font-weight: bold;
+.footer-text {
+  color: black;
+  font-size: 110%;
+  font-weight: 500;
 }
 
-.socials {
-    text-align: center;
-    padding: 16px;
-    display: flex;
-    justify-content: space-evenly;
-    letter-spacing: 18px;
-    list-style-type: none;
-    color: #000000;
+.contact-text-email {
+  color: black;
+  font-size: 102%;
+  font-weight: 600;
+  padding-bottom: 1rem;
 }
 
-.socials i {
-    font-size: 170%;
-    color: #000000;
+.contact-text-email a {
+  color: black;
+}
+
+.contact-text {
+  color: black;
+  font-size: 102%;
+  font-weight: 300;
+  padding-bottom: 1rem;
 }
 
 img {
     max-width: 8rem;
     display: flex;
     justify-content: center;
-}
-
-.git-hub-div {
-    font-size: 170%;
 }
 
 /* media query: tablets and larger (768px and up) */
