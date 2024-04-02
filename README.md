@@ -33,7 +33,7 @@ Link to live website: [UTSS](https://ksdunne.github.io/whisper_riding_school/)
 
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
-- [Code Anywhere Cloud IDE](https://app.codeanywhere.com/)
+- [Visual studio code](https://code.visualstudio.com/)
 - [Balsamiq](https://balsamiq.com/wireframes/)
 - [Favicon](https://favicon.io/favicon-generator/#google_vignette)
 - [Venngage's Accessible color palette generator](https://venngage.com/tools/accessible-color-palette-generator)
