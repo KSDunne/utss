@@ -134,16 +134,16 @@ main {
 /* hero image and cover text*/
 
 #hero-outer {
-    height: 800px;
+    height: 650px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    height: 800px;
+    height: 650px;
     width: 100%;
-    background: url(../images/security_camera_hero_hero.webp) no-repeat center center/cover;
+    background: url(../images/security_camera_hero.webp) no-repeat center center/cover;
 
     /* credit for hero animated zoom effect: love-running-2.0 depreciated project July 2023 */
     /* animating zoom effect on the hero image when loading page */
@@ -605,7 +605,7 @@ img {
     #hero-image {
         height: 850px;
         width: 100%;
-        background: url(../images/security_camera_hero_hero.webp) no-repeat center center/cover;
+        background: url(../images/security_camera_hero.webp) no-repeat center center/cover;
 
         /*animating zoom effect on the hero image when loading page */
         animation-name: hero-zoom;
