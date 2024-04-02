@@ -152,27 +152,6 @@ main {
     animation-fill-mode: forwards;
 }
 
-#hero-image-atw {
-    height: 600px;
-    width: 100%;
-    background: url(../images/polo_hero.webp) no-repeat center center/cover;
-
-    /* animating zoom effect on the hero image when loading page */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-#hero-image-contact {
-    height: 600px;
-    width: 100%;
-    background: url(../images/kiss_hero.webp) no-repeat center center/cover;
-
-    /* animating zoom effect on the hero image when loading page */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
 
 /* creating a zoom for the hero image */
 @keyframes hero-zoom {
@@ -372,7 +351,7 @@ hr {
 
 /*contact page*/
 /*contact form*/
-#farm-address {
+#address {
     padding-top: 0;
     line-height: 160%;
 }
@@ -459,25 +438,6 @@ hr {
 
 #contact-left {
     width: 25rem;
-}
-
-/*map*/
-#contact-right {
-    width: 35rem;
-    scroll-behavior: unset;
-}
-
-#map-div {
-    width: 100%;
-    height: 20rem;
-}
-
-#map-iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-    scroll-behavior: unset;
-    margin: 0 auto;
 }
 
 /* footer */
@@ -612,27 +572,5 @@ img {
         animation-duration: 5s;
         animation-fill-mode: forwards;
         background-position: 5%;
-    }
-
-    #hero-image-atw {
-        height: 850px;
-        width: 100%;
-        background: url(../images/polo_hero.webp) no-repeat center center/cover;
-
-        /* animating zoom effect on the hero image when loading page */
-        animation-name: hero-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
-    }
-
-    #hero-image-contact {
-        height: 850px;
-        width: 100%;
-        background: url(../images/kiss_hero.webp) no-repeat center center/cover;
-
-        /* animating zoom effect on the hero image when loading page */
-        animation-name: hero-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
     }
 }
