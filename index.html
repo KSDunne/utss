@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- credit for head code: love-running-v3 newest version August 2023 -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- search engine meta tags -->
-    <meta name="description" content="Security Systems in Ireland">
-    <meta name="keywords" content="security systems, ireland">
+    <meta name="description" content="Security Systems in Ireland" />
+    <meta name="keywords" content="security systems, ireland" />
     <!-- bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
@@ -17,82 +16,113 @@
       crossorigin="anonymous"
     />
     <!-- custom stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- title -->
     <title>UTSS</title>
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon//site.webmanifest">
-</head>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon//site.webmanifest" />
+  </head>
 
-<body>
+  <body>
     <!--header -->
     <header>
-        <div id="logo-div">
-            <!--Logo image taken from https://www.hubspot.com/brand-kit-generator -->
-            <a href="index.html" aria-label="Link to the home page"><img class="logo-img" width="50" height="42"
-                    alt="UTSS Logo" src="assets/images/main_logo.webp"
-                    aria-label="Logo acting as a link to the home page">
-            </a>
-            <a href="index.html" aria-label="Name of site acting as a link to the home page">
-                <h1 id="logo"> UTSS</h1>
-            </a>
-        </div>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-            </ul>
-        </nav>
+      <div id="logo-div">
+        <!--Logo image taken from https://www.hubspot.com/brand-kit-generator -->
+        <a href="index.html" aria-label="Link to the home page"
+          ><img
+            class="logo-img"
+            width="50"
+            height="42"
+            alt="UTSS Logo"
+            src="assets/images/main_logo.webp"
+            aria-label="Logo acting as a link to the home page"
+          />
+        </a>
+        <a
+          href="index.html"
+          aria-label="Name of site acting as a link to the home page"
+        >
+          <h1 id="logo">UTSS</h1>
+        </a>
+      </div>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="index.html" class="active">Home</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- main content -->
     <main>
-        <!-- credit for hero section code: love-running-2.0 depreciated project July 2023. Line break was added, as that was more suited to my aesthetic -->
-        <section id="hero-outer">
-            <!--Image taken from https://www.pexels.com/photo/an-equestrian-in-action-10932276/ -->
-            <div id="hero-image"></div>
-        </section>
+      <!-- credit for hero section code: love-running-2.0 depreciated project July 2023. Line break was added, as that was more suited to my aesthetic -->
+      <section id="hero-outer">
+        <!--Image taken from https://www.pexels.com/photo/an-equestrian-in-action-10932276/ -->
+        <div id="hero-image"></div>
+      </section>
 
-               <!-- fill in our form text section -->
-        <section class="whisper-farm">
-            <div class="center-about">
-                <div class="contact-page-heading">
-                    <h2>Fill In Our Form To Contact Us Or Connect With Us On Our Socials <i
-                            class="fa-solid fa-tractor"></i></h2>
-                    <hr>
-                    <p>
-                        <a href="#signup" aria-label="Link to contact form lower on this page">Contact us</a> to book
-                        in-person lessons at our farm, for advice on gear or for more information on
-                        boarding and livery. Use the <a href="#map-div"
-                            aria-label="Link to map lower on this page">map</a> feature below to plan your visit to our
-                        farm. Safe travels and
-                        see you soon!
-                    </p>
-                </div>
-            </div>
-        </section>
+      <!-- farm address section -->
+      <section class="whisper-farm">
+        <div class="center-about" id="farm-address">
+          <div class="center-about-heading">
+            <h1>UltraTech Security Systems</h1>
+          </div>
+        </div>
+      </section>
 
-        <!-- farm address section -->
-        <section class="whisper-farm">
-            <div class="center-about" id="farm-address">
-                <div class="center-about-heading">
-                    <h2>Farm Address <i class="fa-solid fa-tractor"></i></h2>
-                    <hr>
-                    <ul id="contact-list">
-                        <li><b>Location:</b> 2 Whisper Lane, Carlow, Leinster, Ireland</li>
-                        <li><b>Phone:</b> 003538411158968</li>
-                        <!-- credit for mailto: w3schools -->
-                        <li><b>Email:</b><a href="mailto:info@utss.ie"> info@utss.ie</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+      <!-- farm address section -->
+      <section class="whisper-farm">
+        <div class="center-about" id="farm-address">
+          <div class="center-about-heading">
+            <h2>Contact <i class="fa-solid fa-shield"></i></h2>
+            <hr />
+            <ul id="contact-list">
+              <li><b>Phone:</b> 059 9100720</li>
+              <li><b>Mobile:</b> 087 4600936</li>
+              <!-- credit for mailto: w3schools -->
+              <li>
+                <b>Email:</b><a href="mailto:info@utss.ie"> info@utss.ie</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- fill in our form text section -->
+      <section class="whisper-farm">
+        <div class="center-about">
+          <div class="contact-page-heading">
+            <h2>
+              Site is currently under construction
+              <i class="fa-solid fa-shield"></i>
+            </h2>
+            <hr />
+            <p>Please direct all enquires to contact details above</p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- footer -->
@@ -102,9 +132,7 @@
           <div class="col-lg-8 col-md-10 mx-auto">
             <p class="m-0 text-center contact-text-email">
               <i class="fa-solid fa-envelope social-icon"></i>
-              <a href="mailto:info@utss.ie">
-                info@utss.ie</a
-              >
+              <a href="mailto:info@utss.ie"> info@utss.ie</a>
             </p>
           </div>
         </div>
@@ -112,7 +140,9 @@
     </footer>
 
     <!-- font awesome script-->
-    <script src="https://kit.fontawesome.com/24d25c0805.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/24d25c0805.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
