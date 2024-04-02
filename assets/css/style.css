@@ -327,57 +327,6 @@ hr {
     background-attachment: scroll;
 }
 
-/* around the world page*/
-#dressage-image {
-    height: 400px;
-    width: 80%;
-    margin: 0 auto;
-    background: url("../images/dressage.webp") no-repeat center center/cover;
-}
-
-#polo-image {
-    height: 400px;
-    width: 80%;
-    margin: 0 auto;
-    background: url("../images/atw_polo.webp") no-repeat center center/cover;
-}
-
-#horseball-image {
-    height: 400px;
-    width: 80%;
-    margin: 0 auto;
-    background: url("../images/horseball.webp") no-repeat center center/cover;
-}
-
-.tackup-title {
-    margin: 0 auto;
-    width: 80%;
-    padding-bottom: 25px;
-    text-align: center;
-}
-
-#youtube-wrapper {
-    position: relative;
-    overflow: hidden;
-    width: 80%;
-    aspect-ratio: 16 / 9;
-    margin: 0 auto;
-}
-
-.video-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-
-#video {
-    padding-bottom: 30px;
-}
-
 /*contact page*/
 /*contact form*/
 #address {
@@ -435,17 +384,6 @@ hr {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-/*credit for box shadow code and idea: https://elainebroche-dev.github.io/ms1-thrive/contact.html */
-.submit-button {
-    border-radius: 6px;
-    padding: 15px 32px;
-    font-size: 100%;
-    font-weight: bold;
-    background-color: #fffae6;
-    color: #2a2a2a;
-    box-shadow: 0.3rem 0.4rem #2a2a2a;
 }
 
 #contact-container {
@@ -536,9 +474,8 @@ img {
         margin: 0 0.5rem;
     }
 
-    #cover-text {
+    #hero-image {
         width: 300px;
-        right: 50px;
         text-align: center;
         border-radius: 6px;
     }
@@ -579,36 +516,19 @@ img {
         display: flex;
         justify-content: center;
     }
+    
+    #hero-image {
+        width: 300px;
+        text-align: center;
+        border-radius: 6px;
+    }
 }
 
 /* Very Large devices (large laptop screens and monitors, 1440px and up) */
 @media screen and (min-width: 1440px) {
-    #hero-outer {
-        height: 380px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        background: black;
-    }
-
-    #hero-inner {
-        position: absolute;
-        top: 73%;
-        left: 50%;
-        right: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        height: 100%;
-    }
-
     #hero-image {
-        height: 60%;
-        width: 80%;
-        margin: auto;
-        background: url(../images/main_logo.webp) no-repeat center center/contain;
-        animation-name: hero-zoom;
-        animation-duration: 5s;
-        animation-fill-mode: forwards;
-        background-position: 5%;
-    } 
+        width: 300px;
+        text-align: center;
+        border-radius: 6px;
+    }
 }
