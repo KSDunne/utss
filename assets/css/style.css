@@ -382,10 +382,10 @@ img {
   }
 }
 
-/* media query: tablets and larger (600px and up) */
-@media screen and (min-width: 600px) {
+/* media query: tablets and larger (550px and up) */
+@media screen and (min-width: 550px) {
   #hero-image {
-    margin: 0 auto;
+    margin-left: 28%;
   }
 }
 
