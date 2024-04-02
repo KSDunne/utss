@@ -37,6 +37,10 @@ header {
   align-items: center;
 }
 
+h1 {
+    font-weight: 600;
+}
+
 h1,
 h2,
 h3 {
@@ -175,6 +179,12 @@ main {
   margin: 0 auto;
 }
 
+.company-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
 .construction-section {
   padding-top: 20px;
   color: white;
@@ -251,49 +261,6 @@ hr {
   line-height: 20px;
   clear: both;
   margin-bottom: 50px;
-}
-
-#benefits-paragraph {
-  padding: 6px;
-}
-
-#benefits-list > li {
-  margin-left: 25px;
-  padding: 6px;
-  line-height: 160%;
-}
-
-#benefits-list a {
-  font-weight: bold;
-}
-
-/* what we offer*/
-#lessons-home {
-  padding-bottom: 20px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-#world-home {
-  padding-bottom: 20px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-#gear-home {
-  padding-bottom: 20px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-#boarding-home {
-  padding-bottom: 20px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-#offer-section {
-  padding: 0% 11% 2%;
 }
 
 #offer div {
