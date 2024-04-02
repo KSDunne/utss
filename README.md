@@ -1,6 +1,6 @@
 # UTSS
 
-(Developer: Katie Dunne)
+(Website Developer: Katie Dunne)
 
 ![AmIResponsive Image](docs/amiresponsive_screenshot.webp)
 
