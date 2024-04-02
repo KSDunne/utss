@@ -70,11 +70,9 @@ Link to live website: [UTSS](https://ksdunne.github.io/whisper_riding_school/)
 
 ### Code
 
-[Love Running Project CI August 2023](https://github.com/Code-Institute-Solutions/love-running-v3) - Head code, responsive boxes on index page, code for socials in footer, code for sign up form on contact page and inspiration to use font awesome icons throughout the website
+[Love Running Project CI August 2023](https://github.com/Code-Institute-Solutions/love-running-v3) - Head code and inspiration to use font awesome icons throughout the website
 
-[Depreciated Love Running Project CI July 2023](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main) - Overall structure of index page, structure for hero image and tagline, animating zoom effect on the hero image when loading page
-
-[Thrive Juices](https://elainebroche-dev.github.io/ms1-thrive/) - Structure of responsive contact panel, form and map and box shadow on contact form submit button
+[Depreciated Love Running Project CI July 2023](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main) - Animating zoom effect on the hero image when loading page
 
 [W3Schools](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto) - 'Mail to' link
 
