@@ -134,15 +134,21 @@ main {
     width: 100%;
     overflow: hidden;
     position: relative;
+    background: black;
 }
 
 #hero-image {
-    height: 400px;
-    width: 100%;
-    background: black;
+    max-height: 400px;
+    max-width: auto;
+    position: absolute;
+    left: 10%; 
+    right: 10%; 
+    top: 5%; 
+    transform: translate(-50%, -50%);
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    background: url('../images/main_logo.webp') no-repeat center center/contain;
 }
 
 
@@ -550,7 +556,7 @@ img {
     #hero-image {
         height: 850px;
         width: 100%;
-        background: black;
+        background: url(../images/main_logo.webp) no-repeat center center/cover;
         animation-name: hero-zoom;
         animation-duration: 5s;
         animation-fill-mode: forwards;
